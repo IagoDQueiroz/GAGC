@@ -1,50 +1,5 @@
-# WhatsApp Group Creation Automation
 
-This project automates the creation of WhatsApp groups using data from an Excel spreadsheet.
-Criação automatizada de grupos do zap, utilizando de uma planilha excel.
-
-## Requirements
-
-- **Eclipse IDE**
-- **Java Development Kit (JDK)** (Download and install)
-- **Maven** for dependency management (https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.zip)
-- **ChromeDriver** for Chrome automation (https://storage.googleapis.com/chrome-for-testing-public/128.0.6613.86/win64/chromedriver-win64.zip)
-- **Test Spreadsheet**
-
-## Setting Up the Environment
-
-1. Add the paths for Maven and ChromeDriver to your environment variables:
-   - Search for "Environment Variables" in Windows (you can add them for either the user or system; user variables are only valid for the current user, while system variables are for all users on the PC).
-   - Create a variable named `MAVEN_HOME` and set its value to the directory of `apache-maven-3.9.9`.
-   - Go to the `Path` variable, click "Edit," then click "New" (be careful not to delete or overwrite existing entries). Add `%MAVEN_HOME%\bin` as a new entry.
-   - In the `Path` variable, add another entry for the directory of the ChromeDriver folder `chromedriver-win64`.
-
-2. Within the project:
-   - In the file `WhatsAppGroupAutomationUI.java`, go to line 127 and specify the directory of the `chromedriver.exe` file (located inside the `chromedriver-win64` folder).
-   - At the end of the code, the `cssSelector` code was intentionally modified to avoid spamming group creation, but the correct code is commented in the file.
-
-## How to Run
-
-1. **Choose the Spreadsheet:**
-   - Select the desired spreadsheet. Note that the first row will be skipped.
-   - Table A should contain the names, and Table B should contain the numbers. The format number is: "82988884444" (11 digits). If you need put another coutry number, you will need to modify the code.
-
-2. **Start the Automation:**
-   - Enter the group name.
-   - Click on "Start Automation."
-
-3. **Open WhatsApp Web:**
-   - A new page with the WhatsApp Web QR Code will open.
-   - A popup with a notice will appear. Click "OK" only after logging in with the QR Code and waiting for the page to fully load.
-
-4. **Completion:**
-   - The automation will perform its function as configured.
-   - At the end, the group name will be added.
-
-
----
-
-# Automação de Criação de Grupos no WhatsApp
+# Gerenciador Automático de Grupos de Calouros
 
 Este projeto automatiza a criação de grupos no WhatsApp usando dados de uma planilha Excel.
 
