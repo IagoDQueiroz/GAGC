@@ -1,6 +1,6 @@
 
 # Gerenciador Automático de Grupos de Calouros
-
+O Gerenciar automático de grupos de calouros também conhecido como GAGC, Automatiza a criação de grupos de Whatsapp, A aplicação lê dados de uma planilha com nomes e números de contato, cria grupos personalizados e adiciona automaticamente os alunos, agilizando a integração e comunicação de forma eficiente e organizada.
 Este projeto automatiza a criação de grupos no WhatsApp usando dados de uma planilha Excel.
 
 ## Requisitos
